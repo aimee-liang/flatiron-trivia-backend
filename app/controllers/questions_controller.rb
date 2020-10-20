@@ -10,4 +10,10 @@ class QuestionsController < ApplicationController
         render json: question
     end
     
+    def random 
+    # Question.find(Question.pluck(:id).shuffle.first)
+        
+        User.order("RANDOM()").limit(10)
+    end 
+    
 end
