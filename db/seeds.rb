@@ -9,7 +9,10 @@
 # require 'json'
 require 'pry'
 
-
+Question.destroy_all
+Category.destroy_all
+User.destroy_all
+Game.destroy_all
 
 
 user1 = User.create(name: "Aimee")
