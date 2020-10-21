@@ -62,7 +62,7 @@ questions = [
         {
         
             text: "What is the name of Jontron's parrot?",
-           answer: "Jacques",
+            answer: "Jacques",
             incorrect_answers: [
                 "Jak",
                 "John",
@@ -74,7 +74,7 @@ questions = [
     
             
             text: "What was the religion of famous singer &quot;Freddie Mercury&quot;?",
-           answer: "Zoroastrianism",
+            answer: "Zoroastrianism",
             incorrect_answers: [
                 "Paganism",
                 "Ashurism",
