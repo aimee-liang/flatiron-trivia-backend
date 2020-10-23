@@ -100,11 +100,11 @@ questions = [
         },
         {
             text: "How tall is Tom Cruise?",
-           answer: "5&prime; 7&Prime;",
+           answer: "5'7",
             incorrect_answers: [
-                "5&prime; 9&Prime;",
-                "5&prime; 4&Prime;",
-                "5&prime; 5&Prime;"
+                "5'9",
+                "5'4",
+                "5'5"
             ],
             game_id: flatiron_trivia.id
         },
@@ -179,7 +179,7 @@ questions = [
             game_id: flatiron_trivia.id
         },
         {
-            text: "A comet&#039;s gaseous envelope (which creates the tail) is called what?",
+            text: "A comet's gaseous envelope (which creates the tail) is called what?",
             answer: "The coma",
             incorrect_answers: [
                 "The wake",
@@ -258,7 +258,7 @@ questions = [
             game_id: flatiron_trivia.id
         },
         {
-            text: "Nvidia&#039;s headquarters are based in which Silicon Valley city?",
+            text: "Nvidia's headquarters are based in which Silicon Valley city?",
             answer: "Santa Clara",
             incorrect_answers: [
                 "Palo Alto",
@@ -278,17 +278,17 @@ questions = [
             game_id: flatiron_trivia.id
         },
         {
-            text: "In the programming language &quot;Python&quot;, which of these statements would display the string &quot;Hello World&quot; correctly?",
-            answer: "print(&quot;Hello World&quot;)",
+            text: "In the programming language 'Python', which of these statements would display the string 'Hello World' correctly?",
+            answer: "print('Hello World')",
             incorrect_answers: [
-                "console.log(&quot;Hello World&quot;)",
-                "echo &quot;Hello World&quot;",
-                "printf(&quot;Hello World&quot;)"
+                "console.log('Hello World')",
+                "echo 'Hello World'",
+                "printf('Hello World')"
             ],
             game_id: flatiron_trivia.id
         },
         {
-            text: "In &quot;Hexadecimal&quot;, what color would be displayed from the color code? &quot;#00FF00&quot;?",
+            text: "In 'Hexadecimal', what color would be displayed from the color code?",
             answer: "Green",
             incorrect_answers: [
                 "Red",
@@ -308,7 +308,7 @@ questions = [
             game_id: flatiron_trivia.id
         },
         {
-            text: "What was the first company to use the term &quot;Golden Master&quot;?",
+            text: "What was the first company to use the term 'Golden Master'?",
             answer: "Apple",
             incorrect_answers: [
                 "IBM",
@@ -334,6 +334,115 @@ questions = [
                 "64",
                 "94",
                 "76"
+            ],
+            game_id: flatiron_trivia.id
+        },
+        {
+            text: "In World of Warcraft Lore, four Old Gods created a giant and powerful creature. What was it called? ",
+            answer: "The Ancient One",
+            incorrect_answers: [
+                "Anomalous",
+                "Eater of Souls",
+                "The Lich King"
+            ],
+            game_id: flatiron_trivia.id
+        },
+        {
+            text: "Which video game earned music composer Mike Morasky the most awards for his work?",
+            answer: "Portal 2",
+            incorrect_answers: [
+                "Left 4 Dead 2",
+                "Team Fortress 2",
+                "Counter-Strike: Global Offensive"
+            ],
+            game_id: flatiron_trivia.id
+        },
+        {
+            text: "In which game does a character say, 'Sometimes, I dream about cheese'?",
+            answer: "Half Life 2",
+            incorrect_answers: [
+                "Team Fortress 2",
+                "Dark Souls",
+                "Serious Sam: The Second Encounter"
+            ],
+            game_id: flatiron_trivia.id
+        },
+        {
+            text: "Valve Corporation is an American video game developer located in which city?",
+            answer: "Bellevue, Washington",
+            incorrect_answers: [
+                "Austin, Texas",
+                "Seattle, Washington",
+                "San Francisco, California"
+            ],
+            game_id: flatiron_trivia.id
+        },
+        {        
+            text: "Which team won the 'Tom Clancy's Rainbow Six Siege' Invitational Event February 2017 in the PC Category?",
+            answer: "Continuum",
+            incorrect_answers: [
+                "GIFU",
+                "Santos Dexterity",
+                "eRa Eternity"
+            ],
+            game_id: flatiron_trivia.id
+        },
+        {
+            text: "What is not a playable race in 'Final Fantasy XIV: A Realm Reborn'?",
+            answer: "Hume",
+            incorrect_answers: [
+                "Miqo&#039;te",
+                "Lalafell",
+                "Roegadyn"
+            ],
+            game_id: flatiron_trivia.id
+        },
+        {
+            
+            
+            
+            text: "What is the name of the protagonist's first Persona in 'Persona 5'?",
+            answer: "Arsene",
+            incorrect_answers: [
+                "Mara",
+                "Izanagi",
+                "Sandaphlon"
+            ],
+            game_id: flatiron_trivia.id
+        },
+        {
+            
+            
+            
+            text: "Which of the following games has the most playable characters?",
+            answer: "Timesplitters: Future Perfect",
+            incorrect_answers: [
+                "Mortal Kombat: Armageddon",
+                "Marvel Vs. Capcom 2",
+                "Dragon Ball Z: Budokai Tenkaichi 3"
+            ],
+            game_id: flatiron_trivia.id
+        },
+        {
+            
+            text: "In Fallout: New Vegas, upon starting each one of the four campaign DLCs, which one of them does not have a warning screen/recommended level? ",
+            answer: "Honest Hearts ",
+            incorrect_answers: [
+                "Old World Blues",
+                "Lonesome Road",
+                "Dead Money"
+            ],
+            game_id: flatiron_trivia.id
+        },
+        {
+            
+            
+            text: "In the video game franchise 'Halo', what is the UNSC's main opposing faction called?",
+            answer: "The Covenant",
+            incorrect_answers: [
+                "The Reckoning",
+                "The Peoples",
+                "The Slaughterers"
             ],
             game_id: flatiron_trivia.id
         }
